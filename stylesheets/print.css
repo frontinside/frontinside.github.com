@@ -77,7 +77,8 @@ header h2 {
   display: none;
 }
 #main_content {
-  padding-top: 20px;
+  width:80%;
+  margin: 0 auto;
 }
 
 code, pre {
