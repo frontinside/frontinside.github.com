@@ -67,6 +67,34 @@ header {
     border-bottom:10px #000 solid;
     margin-bottom: 40px;
 }
+.article-item p{
+    font-size: 14px;
+}
+.article-item h3 a:hover{
+    text-decoration: underline;
+}
+.article-item h3 span{
+    color:#ccc;
+    font-weight: normal;
+    font-size:12px;
+}
+.article-item h3 .tags{
+    display: inline-block;
+    top: -2px;
+    margin-bottom: -2px;
+    margin-left: 4px;
+}
+.article-item h3 .tag{
+    display: inline-block;
+    padding: 3px 4px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 2px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+    background-color: #000 !important;
+    color: rgb(255, 255, 255) !important;
+}
 header .header-inner{
     width:90%;
     min-width: 790px;
@@ -263,9 +291,9 @@ h2 {
 
 h3 {
   color: #d5000d;
-  font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
+  font: 18px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 } 
  
 h4 {
