@@ -61,11 +61,12 @@ a:hover {
   color: #c5000c;
 }
 header {
-    background: #eb4c27;
-    height:135px;
+    background: #da202d;
+    height:70px;
     width:100%;
     border-bottom:10px #000 solid;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+	position:relative;
 }
 .article-item p{
     font-size: 14px;
@@ -102,9 +103,12 @@ header .header-inner{
 }
 header .logo{
     float:left;
+	padding:10px 14px 3px 19px; 
+	background: rgb(0, 0, 0);
+	position:absolute;
 }
 header .logo img{
-    height: 135px;
+    height: 82px;
 }
 header .menu-main-menu-container{
     float: right;
@@ -138,7 +142,7 @@ header .menu-main-menu-container li a{
 #downloads {
     float: right;
     position: relative;
-    top: -100px;
+	display:none;
 }
 
 a.button {
@@ -391,10 +395,6 @@ footer a:hover {
   }
   #download-zip, #download-tar-gz {
     display: none;
-  }
-  .inner {
-    width: 94%;
-    margin: 0 auto;
   }
 }
 
